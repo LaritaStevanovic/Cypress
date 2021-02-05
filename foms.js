@@ -16,7 +16,7 @@ it('chek registration form', () => {
     .get('.react-datepicker__month-select').select('November').should('have.value', '10')
     .get('.react-datepicker__year-select').select('1970').should('have.value', '1970')
     .get('.react-datepicker__week').contains('28').click()
-    .get('#subjectsContainer').type('Kurotresina Anka')
+    .get('#subjectsContainer').type('Cvarkov Djordje')
     .get('.custom-control-label').contains('Reading').click()
     .get('#currentAddress').type('U centru sa cimijem')
     .get('#submit').click()
